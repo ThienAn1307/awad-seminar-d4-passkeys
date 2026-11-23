@@ -55,7 +55,7 @@ Mỗi nhóm có 10 user và mỗi user đăng nhập 5 phiên. Không có yếu 
 Harness không nhìn thấy được UI autofill: khi `enableUI` là false, conditional get tự resolve. Vì vậy số thao tác được **tính theo mô hình đã khai báo dưới đây**, dựa trên sự kiện mà harness quan sát được. 1 thao tác là một trong các việc: điền một ô, một click, chọn một mục autofill, một cử chỉ UV.
 
 Các bước của một phiên:
-1. Mở `/signin` trong trang mới. User đang ở trạng thái đăng xuất.
+1. Mở `/signin` trong **cùng tab** của user. Mỗi virtual authenticator CDP gắn với một tab; mở tab mới thì authenticator không còn. User đang ở trạng thái đăng xuất.
 2. Trang gọi conditional get. Có hai khả năng:
    - **Resolve với một credential** nghĩa là autofill có đề xuất passkey. Tính **+2** (chọn mục autofill, cử chỉ UV). Gửi assertion tới server.
      - Server chấp nhận: đăng nhập thành công. Phiên kết thúc.
@@ -135,9 +135,11 @@ Dự đoán:
 
 - **Số run:** mỗi arm 5 run, xếp theo thứ tự ABBA ABBA AB, tổng 10 lần chạy. Mỗi lần chạy dùng server mới (port mới) và trình duyệt mới. User chạy tuần tự.
 - **Một lệnh:** `npm run measure` chạy cả hai arm và probe, rồi ghi vào `results/<timestamp>/`:
-  - `env.json`: phiên bản Node, Playwright và trình duyệt, OS, commit hash;
-  - một file JSONL thô cho mỗi lần chạy, mỗi dòng là một phiên;
+  - `env.json`: phiên bản Node, Playwright và trình duyệt, OS, commit hash, thứ tự chạy, options của authenticator;
+  - `executions.json`: trạng thái từng lần chạy (`ok` hoặc `error`, kèm lý do);
+  - `raw/<n>-<study>-<arm>.jsonl`: một file thô cho mỗi lần chạy, mỗi dòng là một phiên;
   - `summary.json`, sinh ra từ các file thô.
+- **Probe:** mỗi biến thể cũng chạy 5 lần. Thứ tự các biến thể xoay vòng qua từng run, cùng lý do với ABBA.
 - **Spread:** báo "median, min tới max" qua 5 run. Nếu 5 run giống hệt nhau thì ghi rõ "5/5 giống hệt"; spread 0 là kết quả thật của một hệ xác định, không giấu đi. Phần ổn định được kiểm thêm bằng cách chạy trên 3 máy của nhóm và trên CI ubuntu.
 - **Lỗi:**
   - Mọi lời gọi WebAuthn có timeout 5 s.
