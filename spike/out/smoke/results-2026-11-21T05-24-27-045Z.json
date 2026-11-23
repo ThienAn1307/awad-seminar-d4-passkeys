@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "started": "2026-11-21T05:24:27.052Z",
+  "playwright": "1.65.1",
+  "node": "v24.11.1",
+  "os": "Windows_NT 10.0.26200 Windows 11 Home Single Language x64",
+  "base": "http://localhost:3475",
+  "configs": [
+   {
+    "name": "cft-headed",
+    "label": "Playwright Chromium headed (channel chromium, headless:false)",
+    "version": "159.0.8154.6"
+   }
+  ],
+  "finished": "2026-11-21T05:24:38.836Z"
+ },
+ "results": [
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E1 conditional get, 1 credential, enableUI:false",
+   "createState": "seeded via WebAuthn.addCredential",
+   "resolvedAtStage": "no interaction",
+   "result": {
+    "state": "resolved",
+    "ms": 5,
+    "value": {
+     "id": "hTbI05zI60HCNyVNwd-q5SDHWgBXyTz_dssCbsiGYCs",
+     "type": "public-key",
+     "ctor": "PublicKeyCredential",
+     "authenticatorAttachment": "platform",
+     "ext": {},
+     "clientData": {
+      "type": "webauthn.get",
+      "challenge": "o10GNp2_KuPH4I6ZLUThiiNoHpM0_zFc2wXB1FntNcg",
+      "origin": "http://localhost:3475",
+      "crossOrigin": false,
+      "other_keys_can_be_added_here": "do not compare clientDataJSON against a template. See https://goo.gl/yabPex"
+     },
+     "kind": "assertion",
+     "flags": {
+      "byte": "0x05",
+      "UP": true,
+      "UV": true,
+      "BE": false,
+      "BS": false,
+      "AT": false,
+      "ED": false,
+      "signCount": 1
+     },
+     "userHandle": "o0sIb5_OHirPYRl2lN2Q3A"
+    }
+   },
+   "returnedIsCreated": true,
+   "cdpEvents": [
+    "credentialAsserted"
+   ]
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E1b conditional get, 0 credentials, enableUI:false",
+   "result": {
+    "state": "rejected",
+    "ms": 4,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   }
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "crashed": "Cannot read properties of undefined (reading 'state')"
+  }
+ ]
+}

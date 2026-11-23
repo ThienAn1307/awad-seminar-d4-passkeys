@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "started": "2026-11-21T05:22:12.135Z",
+  "playwright": "1.65.1",
+  "node": "v24.11.1",
+  "os": "Windows_NT 10.0.26200 Windows 11 Home Single Language x64",
+  "base": "http://localhost:8469",
+  "configs": [
+   {
+    "name": "cft",
+    "label": "Playwright Chromium / Chrome for Testing (channel chromium, new headless)",
+    "version": "159.0.8154.6"
+   }
+  ],
+  "finished": "2026-11-21T05:22:13.575Z"
+ },
+ "results": [
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "G",
+   "crashed": "G create failed at i=3 {\"state\":\"rejected\",\"ms\":10,\"name\":\"NotAllowedError\",\"message\":\"The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client.\"}"
+  }
+ ]
+}

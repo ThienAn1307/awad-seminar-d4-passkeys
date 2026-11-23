@@ -1,0 +1,502 @@
+{
+ "meta": {
+  "started": "2026-11-21T05:25:00.215Z",
+  "playwright": "1.65.1",
+  "node": "v24.11.1",
+  "os": "Windows_NT 10.0.26200 Windows 11 Home Single Language x64",
+  "base": "http://localhost:14788",
+  "configs": [
+   {
+    "name": "cft",
+    "label": "Playwright Chromium / Chrome for Testing (channel chromium, new headless)",
+    "version": "159.0.8154.6"
+   },
+   {
+    "name": "cft-headed",
+    "label": "Playwright Chromium headed (channel chromium, headless:false)",
+    "version": "159.0.8154.6"
+   }
+  ],
+  "finished": "2026-11-21T05:26:13.437Z"
+ },
+ "results": [
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "E",
+   "variant": "E1 conditional get, 1 credential, enableUI:false",
+   "createState": "seeded via WebAuthn.addCredential",
+   "resolvedAtStage": "no interaction",
+   "formSubmitAttemptsBlocked": 0,
+   "usernameFieldValue": "",
+   "result": {
+    "state": "resolved",
+    "ms": 5,
+    "value": {
+     "id": "I_4LIRVLmmKeFPZC6WMOX0O46Mpt_GPIgNxylS7zdPI",
+     "type": "public-key",
+     "ctor": "PublicKeyCredential",
+     "authenticatorAttachment": "platform",
+     "ext": {},
+     "clientData": {
+      "type": "webauthn.get",
+      "challenge": "d14WjALXv05dXUpxRE5_oXd1WjANjHfDL9Kkvs0QIxk",
+      "origin": "http://localhost:14788",
+      "crossOrigin": false
+     },
+     "kind": "assertion",
+     "flags": {
+      "byte": "0x05",
+      "UP": true,
+      "UV": true,
+      "BE": false,
+      "BS": false,
+      "AT": false,
+      "ED": false,
+      "signCount": 1
+     },
+     "userHandle": "uGec6DuAokkqXNM6qDlOrA"
+    }
+   },
+   "returnedIsCreated": true,
+   "cdpEvents": [
+    "credentialAsserted"
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "E",
+   "variant": "E1b conditional get, 0 credentials, enableUI:false",
+   "result": {
+    "state": "rejected",
+    "ms": 2,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   }
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "E",
+   "variant": "E1 conditional get, 1 credential, enableUI:true",
+   "createState": "seeded via WebAuthn.addCredential",
+   "resolvedAtStage": null,
+   "formSubmitAttemptsBlocked": 1,
+   "usernameFieldValue": "j",
+   "result": {
+    "state": "pending after 2.842 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 15010,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   },
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "E",
+   "variant": "E1b conditional get, 0 credentials, enableUI:true",
+   "result": {
+    "state": "pending after 15 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 15019,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   }
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "E",
+   "variant": "E2 modal get, 2 discoverable creds (created \"first\" then \"second\"), 8 fresh authenticators x 3 gets",
+   "summary": {
+    "alwaysFirstCreated": false,
+    "returnedEqualsSmallestId": "8/8",
+    "getCredentialsOrderIsCreationOrder": "2/8"
+   },
+   "trials": [
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "first",
+      "first",
+      "first"
+     ],
+     "smallestIdIs": "first",
+     "getCredentialsOrder": [
+      "first",
+      "second"
+     ],
+     "signCounts": {
+      "first": 4,
+      "second": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "first",
+      "first",
+      "first"
+     ],
+     "smallestIdIs": "first",
+     "getCredentialsOrder": [
+      "first",
+      "second"
+     ],
+     "signCounts": {
+      "first": 4,
+      "second": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    }
+   ]
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E1 conditional get, 1 credential, enableUI:false",
+   "createState": "seeded via WebAuthn.addCredential",
+   "resolvedAtStage": "no interaction",
+   "formSubmitAttemptsBlocked": 0,
+   "usernameFieldValue": "",
+   "result": {
+    "state": "resolved",
+    "ms": 5,
+    "value": {
+     "id": "wybY-CtlGsZWM3KsSlEO-g7TzOLLn2i4yBIMSftfirk",
+     "type": "public-key",
+     "ctor": "PublicKeyCredential",
+     "authenticatorAttachment": "platform",
+     "ext": {},
+     "clientData": {
+      "type": "webauthn.get",
+      "challenge": "nT194RG3nVXn6QpyPP8USDVrcNQt3QdMTMG4fSDGMHM",
+      "origin": "http://localhost:14788",
+      "crossOrigin": false
+     },
+     "kind": "assertion",
+     "flags": {
+      "byte": "0x05",
+      "UP": true,
+      "UV": true,
+      "BE": false,
+      "BS": false,
+      "AT": false,
+      "ED": false,
+      "signCount": 1
+     },
+     "userHandle": "pq5hHXz0eKMgzU5sp0_7ng"
+    }
+   },
+   "returnedIsCreated": true,
+   "cdpEvents": [
+    "credentialAsserted"
+   ]
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E1b conditional get, 0 credentials, enableUI:false",
+   "result": {
+    "state": "rejected",
+    "ms": 4,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   }
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E1 conditional get, 1 credential, enableUI:true",
+   "createState": "seeded via WebAuthn.addCredential",
+   "resolvedAtStage": null,
+   "formSubmitAttemptsBlocked": 1,
+   "usernameFieldValue": "j",
+   "result": {
+    "state": "pending after 2.816 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 15004,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   },
+   "cdpEvents": []
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E1b conditional get, 0 credentials, enableUI:true",
+   "result": {
+    "state": "pending after 15 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 15020,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   }
+  },
+  {
+   "config": "cft-headed",
+   "run": 1,
+   "test": "E",
+   "variant": "E2 modal get, 2 discoverable creds (created \"first\" then \"second\"), 8 fresh authenticators x 3 gets",
+   "summary": {
+    "alwaysFirstCreated": false,
+    "returnedEqualsSmallestId": "8/8",
+    "getCredentialsOrderIsCreationOrder": "1/8"
+   },
+   "trials": [
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "second",
+      "second",
+      "second"
+     ],
+     "smallestIdIs": "second",
+     "getCredentialsOrder": [
+      "second",
+      "first"
+     ],
+     "signCounts": {
+      "second": 4,
+      "first": 4
+     },
+     "assertedEventsPerGet": 2
+    },
+    {
+     "returned": [
+      "first",
+      "first",
+      "first"
+     ],
+     "smallestIdIs": "first",
+     "getCredentialsOrder": [
+      "first",
+      "second"
+     ],
+     "signCounts": {
+      "first": 4,
+      "second": 4
+     },
+     "assertedEventsPerGet": 2
+    }
+   ]
+  }
+ ]
+}

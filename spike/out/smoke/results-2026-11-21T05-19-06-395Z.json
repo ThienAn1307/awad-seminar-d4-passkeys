@@ -1,0 +1,499 @@
+{
+ "meta": {
+  "started": "2026-11-21T05:19:06.402Z",
+  "playwright": "1.65.1",
+  "node": "v24.11.1",
+  "os": "Windows_NT 10.0.26200 Windows 11 Home Single Language x64",
+  "base": "http://localhost:2774",
+  "configs": [
+   {
+    "name": "cft",
+    "label": "Playwright Chromium / Chrome for Testing (channel chromium, new headless)",
+    "version": "159.0.8154.6"
+   }
+  ],
+  "finished": "2026-11-21T05:19:46.498Z"
+ },
+ "results": [
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A1 load-then-click, enableUI default",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/",
+   "result": {
+    "state": "pending after 6 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 6019,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   },
+   "credsOnAuthenticator": [],
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A1t load-then-click, enableUI default, publicKey.timeout=5000",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/",
+   "result": {
+    "state": "rejected",
+    "ms": 5019,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "credsOnAuthenticator": [],
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A1 load-then-click, enableUI:true",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/",
+   "result": {
+    "state": "rejected",
+    "ms": 17,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "credsOnAuthenticator": [],
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A2 after password form submit, enableUI default",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/welcome?user=alice%40example.test",
+   "result": {
+    "state": "pending after 6 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 6018,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   },
+   "credsOnAuthenticator": [],
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A2 after password form submit, enableUI:true",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/welcome?user=alice%40example.test",
+   "result": {
+    "state": "rejected",
+    "ms": 16,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "credsOnAuthenticator": [],
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A3a no CDP at all (real environment)",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/welcome?user=alice%40example.test",
+   "result": {
+    "state": "rejected",
+    "ms": 13,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "credsOnAuthenticator": null,
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A3b WebAuthn.enable but no authenticator",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/welcome?user=alice%40example.test",
+   "result": {
+    "state": "pending after 6 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 6010,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   },
+   "credsOnAuthenticator": null,
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A3c WebAuthn.enable{enableUI:true} but no authenticator",
+   "enableErr": null,
+   "addErr": null,
+   "url": "/welcome?user=alice%40example.test",
+   "result": {
+    "state": "rejected",
+    "ms": 5,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "credsOnAuthenticator": null,
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "A",
+   "variant": "A4 Playwright context.credentials.install() shim, no CDP",
+   "installErr": null,
+   "conditional": {
+    "state": "resolved",
+    "ms": 26,
+    "value": {
+     "id": "Wl9eOaAQohedF0TyV_bcaA",
+     "type": "public-key",
+     "ctor": "PublicKeyCredential",
+     "authenticatorAttachment": "platform",
+     "ext": {},
+     "clientData": {
+      "type": "webauthn.create",
+      "challenge": "GLF4gWCCxi__MM0IAqmBG5zETlN8oSKgKdRpdCfmKfc",
+      "origin": "http://localhost:2774",
+      "crossOrigin": false
+     },
+     "kind": "attestation",
+     "flags": {
+      "byte": "0x45",
+      "UP": true,
+      "UV": true,
+      "BE": false,
+      "BS": false,
+      "AT": true,
+      "ED": false,
+      "signCount": 0
+     },
+     "transports": [
+      "internal"
+     ]
+    }
+   },
+   "modal": {
+    "state": "resolved",
+    "ms": 4,
+    "value": {
+     "id": "7y1OjyFsDzG0zBmcvPuzsg",
+     "type": "public-key",
+     "ctor": "PublicKeyCredential",
+     "authenticatorAttachment": "platform",
+     "ext": {},
+     "clientData": {
+      "type": "webauthn.create",
+      "challenge": "tQm82-0gSQqSMEBnqaugqfDWFQf1itdplz9b6opl7AI",
+      "origin": "http://localhost:2774",
+      "crossOrigin": false
+     },
+     "kind": "attestation",
+     "flags": {
+      "byte": "0x45",
+      "UP": true,
+      "UV": true,
+      "BE": false,
+      "BS": false,
+      "AT": true,
+      "ED": false,
+      "signCount": 0
+     },
+     "transports": [
+      "internal"
+     ]
+    }
+   },
+   "shimStoredIds": [
+    "Wl9eOaAQohedF0TyV_bcaA",
+    "7y1OjyFsDzG0zBmcvPuzsg"
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "B",
+   "variant": "modal create, enableUI:false",
+   "enableErr": null,
+   "result": {
+    "state": "resolved",
+    "ms": 18,
+    "value": {
+     "id": "kGBjtD4fmulupk7jox7qrh0cFcPr-aZ7fARW9LkByWI",
+     "type": "public-key",
+     "ctor": "PublicKeyCredential",
+     "authenticatorAttachment": "platform",
+     "ext": {},
+     "clientData": {
+      "type": "webauthn.create",
+      "challenge": "Y_f7AWiXrMFG9reo8gwdTGFImCxqJviMi5eHZ06aK00",
+      "origin": "http://localhost:2774",
+      "crossOrigin": false
+     },
+     "kind": "attestation",
+     "flags": {
+      "byte": "0x45",
+      "UP": true,
+      "UV": true,
+      "BE": false,
+      "BS": false,
+      "AT": true,
+      "ED": false,
+      "signCount": 1
+     },
+     "transports": [
+      "internal"
+     ]
+    }
+   },
+   "credsOnAuthenticator": [
+    {
+     "id": "kGBjtD4fmulupk7jox7qrh0cFcPr-aZ7fARW9LkByWI",
+     "rk": true,
+     "rpId": "localhost",
+     "userHandle": "GCOVn06oihzuOpi_RxQUBQ",
+     "signCount": 1,
+     "BE": false,
+     "BS": false,
+     "userName": "bob@example.test",
+     "userDisplayName": "bob@example.test"
+    }
+   ],
+   "cdpEvents": [
+    "credentialAdded"
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "B",
+   "variant": "modal create, enableUI:true",
+   "enableErr": null,
+   "result": {
+    "state": "pending after 6 s",
+    "afterAbort": {
+     "state": "rejected",
+     "ms": 6032,
+     "name": "AbortError",
+     "message": "signal is aborted without reason"
+    }
+   },
+   "credsOnAuthenticator": [],
+   "cdpEvents": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C1 signalUnknownCredential(own cred)",
+   "createState": "resolved",
+   "credId": "BE9txt1uv0pkCKDLDI_aSfQnkeyecTYRicvkbRL8jJE",
+   "signal": {
+    "state": "resolved",
+    "ms": 3,
+    "value": "undefined"
+   },
+   "credsBefore": [
+    "BE9txt1uv0pkCKDLDI_aSfQnkeyecTYRicvkbRL8jJE"
+   ],
+   "credsAfter": [],
+   "eventsAfterSignal": [
+    {
+     "t": 1795238382294,
+     "ev": "credentialDeleted",
+     "credentialId": "BE9txt1uv0pkCKDLDI_aSfQnkeyecTYRicvkbRL8jJE"
+    }
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C2 signalAllAcceptedCredentials(userId, [])",
+   "createState": "resolved",
+   "credId": "lndJZD_I_VkeNsQ6eU85aHhl0P6tp0iery99jPuci3Y",
+   "signal": {
+    "state": "resolved",
+    "ms": 13,
+    "value": "undefined"
+   },
+   "credsBefore": [
+    "lndJZD_I_VkeNsQ6eU85aHhl0P6tp0iery99jPuci3Y"
+   ],
+   "credsAfter": [],
+   "eventsAfterSignal": [
+    {
+     "t": 1795238382698,
+     "ev": "credentialDeleted",
+     "credentialId": "lndJZD_I_VkeNsQ6eU85aHhl0P6tp0iery99jPuci3Y"
+    }
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C2b signalAllAcceptedCredentials(userId, [k1]) with k1,k2 for user and 1 cred for another user",
+   "signal": {
+    "state": "resolved",
+    "ms": 8,
+    "value": "undefined"
+   },
+   "k1kept": false,
+   "k2kept": false,
+   "otherUserKept": true,
+   "eventsAfterSignal": [
+    {
+     "t": 1795238383354,
+     "ev": "credentialDeleted",
+     "credentialId": "edcj9WRn5iX7YuIhtXp9ys8QGaznOluUvo1OtX63Xdo"
+    }
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C3 signalCurrentUserDetails",
+   "signal": {
+    "state": "resolved",
+    "ms": 16,
+    "value": "undefined"
+   },
+   "before": {
+    "userName": "grace@example.test",
+    "userDisplayName": "grace@example.test"
+   },
+   "after": {
+    "userName": "grace.renamed@example.test",
+    "userDisplayName": "Grace Renamed"
+   },
+   "eventsAfterSignal": [
+    {
+     "t": 1795238383830,
+     "ev": "credentialUpdated",
+     "credentialId": "OJqxGmrrfRA-hXeyIPqVipNJKHub0ltMOg46dTHwfjc",
+     "userName": "grace.renamed@example.test",
+     "userDisplayName": "Grace Renamed"
+    }
+   ]
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C3b signalUnknownCredential bad rpId / bad id",
+   "badRpId": {
+    "state": "rejected",
+    "ms": 172,
+    "name": "SecurityError",
+    "message": "The relying party ID is not a registrable domain suffix of, nor equal to the current domain. Subsequently, an attempt to fetch the .well-known/webauthn resource of the claimed RP ID failed."
+   },
+   "badId": {
+    "state": "rejected",
+    "ms": 0,
+    "name": "TypeError",
+    "message": "Failed to execute 'signalUnknownCredential' on 'PublicKeyCredential': Invalid base64url string for credentialId."
+   }
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C4 stale credential (server deleted, only cred on authenticator)",
+   "staleId": "6ZrPEvxhTsil1PKCjvBT1F6ZA6IUX1U-kydJ-vMS-t8",
+   "get1": {
+    "state": "resolved",
+    "ms": 7,
+    "returnedId": "6ZrPEvxhTsil1PKCjvBT1F6ZA6IUX1U-kydJ-vMS-t8",
+    "serverKnows": false
+   },
+   "get2_noSignal": {
+    "state": "resolved",
+    "ms": 9,
+    "returnedId": "6ZrPEvxhTsil1PKCjvBT1F6ZA6IUX1U-kydJ-vMS-t8",
+    "serverKnows": false
+   },
+   "signal": {
+    "state": "resolved",
+    "ms": 6,
+    "value": "undefined"
+   },
+   "get3_afterSignal": {
+    "state": "rejected",
+    "ms": 12,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "get4_afterSignal_timeout3000": {
+    "state": "rejected",
+    "ms": 14,
+    "name": "NotAllowedError",
+    "message": "The operation either timed out or was not allowed. See: https://www.w3.org/TR/webauthn-2/#sctn-privacy-considerations-client."
+   },
+   "credsAfter": []
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C5 stale(created 1st) + valid(created 2nd), same user, empty allowCredentials",
+   "get1": "VALID",
+   "get1b_noSignal": "VALID",
+   "signal": "resolved",
+   "get2_afterSignal": "VALID",
+   "serverAcceptsGet2": true
+  },
+  {
+   "config": "cft",
+   "run": 1,
+   "test": "C",
+   "variant": "C6 Playwright shim: signalUnknownCredential then get()",
+   "create": "resolved",
+   "flags": {
+    "byte": "0x45",
+    "UP": true,
+    "UV": true,
+    "BE": false,
+    "BS": false,
+    "AT": true,
+    "ED": false,
+    "signCount": 0
+   },
+   "signal": {
+    "state": "resolved",
+    "ms": 6,
+    "value": "undefined"
+   },
+   "getAfterSignal": {
+    "state": "resolved",
+    "returnedSame": true
+   },
+   "shimStillHas": true
+  }
+ ]
+}
