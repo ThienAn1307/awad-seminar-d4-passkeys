@@ -1,4 +1,8 @@
 node_modules/
+.npm-cache/
+.playwright-browsers/
+AI-LOG.md
+SELF_ASSESSMENT_REPORT.md
 .env*
 !.env.example
 .claude/settings.local.json
