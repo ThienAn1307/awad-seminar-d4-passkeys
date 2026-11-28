@@ -1,0 +1,1607 @@
+{
+  "main": {
+    "enoughRuns": true,
+    "minRuns": 5,
+    "arms": {
+      "baseline": {
+        "validRuns": 5,
+        "errorRuns": 0,
+        "headline": {
+          "firstTryPct": {
+            "median": 0,
+            "min": 0,
+            "max": 0,
+            "n": 5,
+            "identical": true
+          },
+          "actionsPerSignin": {
+            "median": 5,
+            "min": 5,
+            "max": 5,
+            "n": 5,
+            "identical": true
+          }
+        },
+        "perRun": [
+          {
+            "run": 1,
+            "headline": {
+              "firstTryPct": 0,
+              "actionsPerSignin": 5,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 4,
+            "headline": {
+              "firstTryPct": 0,
+              "actionsPerSignin": 5,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 5,
+            "headline": {
+              "firstTryPct": 0,
+              "actionsPerSignin": 5,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 8,
+            "headline": {
+              "firstTryPct": 0,
+              "actionsPerSignin": 5,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 9,
+            "headline": {
+              "firstTryPct": 0,
+              "actionsPerSignin": 5,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          }
+        ]
+      },
+      "change": {
+        "validRuns": 5,
+        "errorRuns": 0,
+        "headline": {
+          "firstTryPct": {
+            "median": 100,
+            "min": 100,
+            "max": 100,
+            "n": 5,
+            "identical": true
+          },
+          "actionsPerSignin": {
+            "median": 3,
+            "min": 3,
+            "max": 3,
+            "n": 5,
+            "identical": true
+          }
+        },
+        "perRun": [
+          {
+            "run": 2,
+            "headline": {
+              "firstTryPct": 100,
+              "actionsPerSignin": 3,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 3,
+            "headline": {
+              "firstTryPct": 100,
+              "actionsPerSignin": 3,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 6,
+            "headline": {
+              "firstTryPct": 100,
+              "actionsPerSignin": 3,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 7,
+            "headline": {
+              "firstTryPct": 100,
+              "actionsPerSignin": 3,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          },
+          {
+            "run": 10,
+            "headline": {
+              "firstTryPct": 100,
+              "actionsPerSignin": 3,
+              "signins": 40
+            },
+            "bySession": {
+              "stale": {
+                "1": {
+                  "firstTryPct": 0,
+                  "actionsPerSignin": 5,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 23,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "valid": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 2,
+                  "keystrokesPerSignin": 0,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              },
+              "nopasskey": {
+                "1": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "2": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "3": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "4": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                },
+                "5": {
+                  "firstTryPct": 100,
+                  "actionsPerSignin": 3,
+                  "keystrokesPerSignin": 24,
+                  "successPct": 100,
+                  "signins": 10
+                }
+              }
+            },
+            "successPctByCohort": {
+              "stale": 100,
+              "valid": 100,
+              "nopasskey": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "probe": {
+    "correct, with password": {
+      "validRuns": 5,
+      "passkeyDeletedPct": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "lockoutPct": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "firstTryPct": {
+        "median": 100,
+        "min": 100,
+        "max": 100,
+        "n": 5,
+        "identical": true
+      },
+      "actionsPerSignin": {
+        "median": 2,
+        "min": 2,
+        "max": 2,
+        "n": 5,
+        "identical": true
+      },
+      "perRun": [
+        {
+          "run": 11,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 18,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 21,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 24,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 27,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        }
+      ]
+    },
+    "correct, passkey only": {
+      "validRuns": 5,
+      "passkeyDeletedPct": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "lockoutPct": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "firstTryPct": {
+        "median": 100,
+        "min": 100,
+        "max": 100,
+        "n": 5,
+        "identical": true
+      },
+      "actionsPerSignin": {
+        "median": 2,
+        "min": 2,
+        "max": 2,
+        "n": 5,
+        "identical": true
+      },
+      "perRun": [
+        {
+          "run": 12,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 15,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 22,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 25,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        },
+        {
+          "run": 28,
+          "passkeyDeletedPct": 0,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 2,
+          "users": 10
+        }
+      ]
+    },
+    "incomplete, with password": {
+      "validRuns": 5,
+      "passkeyDeletedPct": {
+        "median": 100,
+        "min": 100,
+        "max": 100,
+        "n": 5,
+        "identical": true
+      },
+      "lockoutPct": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "firstTryPct": {
+        "median": 100,
+        "min": 100,
+        "max": 100,
+        "n": 5,
+        "identical": true
+      },
+      "actionsPerSignin": {
+        "median": 3,
+        "min": 3,
+        "max": 3,
+        "n": 5,
+        "identical": true
+      },
+      "perRun": [
+        {
+          "run": 13,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 3,
+          "users": 10
+        },
+        {
+          "run": 16,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 3,
+          "users": 10
+        },
+        {
+          "run": 19,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 3,
+          "users": 10
+        },
+        {
+          "run": 26,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 3,
+          "users": 10
+        },
+        {
+          "run": 29,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 0,
+          "firstTryPct": 100,
+          "actionsPerSignin": 3,
+          "users": 10
+        }
+      ]
+    },
+    "incomplete, passkey only": {
+      "validRuns": 5,
+      "passkeyDeletedPct": {
+        "median": 100,
+        "min": 100,
+        "max": 100,
+        "n": 5,
+        "identical": true
+      },
+      "lockoutPct": {
+        "median": 100,
+        "min": 100,
+        "max": 100,
+        "n": 5,
+        "identical": true
+      },
+      "firstTryPct": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "actionsPerSignin": {
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "n": 5,
+        "identical": true
+      },
+      "perRun": [
+        {
+          "run": 14,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 100,
+          "firstTryPct": 0,
+          "actionsPerSignin": 0,
+          "users": 10
+        },
+        {
+          "run": 17,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 100,
+          "firstTryPct": 0,
+          "actionsPerSignin": 0,
+          "users": 10
+        },
+        {
+          "run": 20,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 100,
+          "firstTryPct": 0,
+          "actionsPerSignin": 0,
+          "users": 10
+        },
+        {
+          "run": 23,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 100,
+          "firstTryPct": 0,
+          "actionsPerSignin": 0,
+          "users": 10
+        },
+        {
+          "run": 30,
+          "passkeyDeletedPct": 100,
+          "lockoutPct": 100,
+          "firstTryPct": 0,
+          "actionsPerSignin": 0,
+          "users": 10
+        }
+      ]
+    }
+  },
+  "enoughRuns": true
+}

@@ -62,7 +62,7 @@ Baseline đề xuất passkey cũ ở mọi phiên: user chọn nó (2 thao tác
 | danh sách thiếu, còn mật khẩu | 100% | 0% | 100% / 3 |
 | danh sách thiếu, chỉ có passkey | **100%** | **100%** | 0% / không còn cách đăng nhập |
 
-**Kiểm chéo:** CROSSCHECK_TODO.
+**Kiểm chéo:** cùng lệnh trên CI ubuntu (GitHub Actions, Linux, commit `6607839`, code app và harness giống `f1ab226`) ra đúng các số trên, 30/30 lần chạy `ok` (`results/ci-ubuntu/2026-11-28T13-32-18-423Z/`). WSL Ubuntu trên cùng laptop, từ một bản clone sạch, cũng ra đúng các số này (`results/wsl-ubuntu/2026-11-28T13-31-36-481Z/`). CROSSCHECK_TODO
 
 ## 5. Khuyến nghị
 

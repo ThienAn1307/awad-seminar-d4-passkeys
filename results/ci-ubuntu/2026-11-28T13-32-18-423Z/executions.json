@@ -1,0 +1,272 @@
+[
+  {
+    "seq": 1,
+    "study": "main",
+    "arm": "baseline",
+    "status": "ok",
+    "error": null,
+    "file": "01-main-baseline.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 2,
+    "study": "main",
+    "arm": "change",
+    "status": "ok",
+    "error": null,
+    "file": "02-main-change.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 3,
+    "study": "main",
+    "arm": "change",
+    "status": "ok",
+    "error": null,
+    "file": "03-main-change.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 4,
+    "study": "main",
+    "arm": "baseline",
+    "status": "ok",
+    "error": null,
+    "file": "04-main-baseline.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 5,
+    "study": "main",
+    "arm": "baseline",
+    "status": "ok",
+    "error": null,
+    "file": "05-main-baseline.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 6,
+    "study": "main",
+    "arm": "change",
+    "status": "ok",
+    "error": null,
+    "file": "06-main-change.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 7,
+    "study": "main",
+    "arm": "change",
+    "status": "ok",
+    "error": null,
+    "file": "07-main-change.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 8,
+    "study": "main",
+    "arm": "baseline",
+    "status": "ok",
+    "error": null,
+    "file": "08-main-baseline.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 9,
+    "study": "main",
+    "arm": "baseline",
+    "status": "ok",
+    "error": null,
+    "file": "09-main-baseline.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 10,
+    "study": "main",
+    "arm": "change",
+    "status": "ok",
+    "error": null,
+    "file": "10-main-change.jsonl",
+    "sessions": 150
+  },
+  {
+    "seq": 11,
+    "study": "probe",
+    "arm": "correct, with password",
+    "status": "ok",
+    "error": null,
+    "file": "11-probe-correct-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 12,
+    "study": "probe",
+    "arm": "correct, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "12-probe-correct-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 13,
+    "study": "probe",
+    "arm": "incomplete, with password",
+    "status": "ok",
+    "error": null,
+    "file": "13-probe-incomplete-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 14,
+    "study": "probe",
+    "arm": "incomplete, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "14-probe-incomplete-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 15,
+    "study": "probe",
+    "arm": "correct, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "15-probe-correct-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 16,
+    "study": "probe",
+    "arm": "incomplete, with password",
+    "status": "ok",
+    "error": null,
+    "file": "16-probe-incomplete-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 17,
+    "study": "probe",
+    "arm": "incomplete, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "17-probe-incomplete-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 18,
+    "study": "probe",
+    "arm": "correct, with password",
+    "status": "ok",
+    "error": null,
+    "file": "18-probe-correct-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 19,
+    "study": "probe",
+    "arm": "incomplete, with password",
+    "status": "ok",
+    "error": null,
+    "file": "19-probe-incomplete-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 20,
+    "study": "probe",
+    "arm": "incomplete, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "20-probe-incomplete-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 21,
+    "study": "probe",
+    "arm": "correct, with password",
+    "status": "ok",
+    "error": null,
+    "file": "21-probe-correct-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 22,
+    "study": "probe",
+    "arm": "correct, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "22-probe-correct-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 23,
+    "study": "probe",
+    "arm": "incomplete, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "23-probe-incomplete-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 24,
+    "study": "probe",
+    "arm": "correct, with password",
+    "status": "ok",
+    "error": null,
+    "file": "24-probe-correct-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 25,
+    "study": "probe",
+    "arm": "correct, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "25-probe-correct-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 26,
+    "study": "probe",
+    "arm": "incomplete, with password",
+    "status": "ok",
+    "error": null,
+    "file": "26-probe-incomplete-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 27,
+    "study": "probe",
+    "arm": "correct, with password",
+    "status": "ok",
+    "error": null,
+    "file": "27-probe-correct-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 28,
+    "study": "probe",
+    "arm": "correct, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "28-probe-correct-passkey-only.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 29,
+    "study": "probe",
+    "arm": "incomplete, with password",
+    "status": "ok",
+    "error": null,
+    "file": "29-probe-incomplete-with-password.jsonl",
+    "sessions": 50
+  },
+  {
+    "seq": 30,
+    "study": "probe",
+    "arm": "incomplete, passkey only",
+    "status": "ok",
+    "error": null,
+    "file": "30-probe-incomplete-passkey-only.jsonl",
+    "sessions": 50
+  }
+]
