@@ -19,7 +19,9 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: npm run lint
       - run: npm test
-      # Cross-check on Linux of the committed Windows evidence (method.md section 11).
+      - run: npm run test:e2e
+      # Cross-check on Linux of the committed Windows runs (method.md sections 9 and 11).
+      - run: npm run measure
       - run: npm run check:conditional-create
       - uses: actions/upload-artifact@v4
         if: always()
