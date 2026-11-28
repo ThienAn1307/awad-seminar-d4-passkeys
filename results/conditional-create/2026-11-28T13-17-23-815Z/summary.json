@@ -1,0 +1,26 @@
+{
+  "conditional, enableUI false": {
+    "created": 0,
+    "trials": 5,
+    "outcomes": [
+      "rejected NotAllowedError"
+    ],
+    "blockedRequests": []
+  },
+  "conditional, enableUI true": {
+    "created": 0,
+    "trials": 5,
+    "outcomes": [
+      "rejected NotAllowedError"
+    ],
+    "blockedRequests": []
+  },
+  "control: modal create": {
+    "created": 5,
+    "trials": 5,
+    "outcomes": [
+      "resolved"
+    ],
+    "blockedRequests": []
+  }
+}
